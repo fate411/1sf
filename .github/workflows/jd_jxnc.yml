@@ -42,7 +42,7 @@ jobs:
           python3 sjys.py
       - name: '运行 【京喜农场】'
         run: |
-          curl https://raw.githubusercontent.com/1908002701/JD/main/jd_jxnc2.js -o jd_jxnc2.js
+          curl https://github.com/fate411/1sf/blob/main/jd_jxnc2.js -o jd_jxnc2.js
           node jd_jxnc2.js
           node jd_jxnc.js
         env:
