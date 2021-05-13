@@ -42,8 +42,8 @@ jobs:
           python3 sjys.py
       - name: '运行 【京喜农场】'
         run: |
-          curl https://github.com/fate411/1sf/blob/main/jd_jxnc2.js -o jd_jxnc2.js
-          node jd_jxnc2.js
+          curl https://github.com/fate411/1sf/blob/main/jd_jxnc.js -o jd_jxnc.js
+          node jd_jxnc.js
           node jd_jxnc.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
