@@ -852,7 +852,10 @@ function zoo_pk_getHomeData(body = "",timeout = 0) {
       $.post(url, async (err, resp, data) => {
         try {
           if (body !== "") {
-            await $.getScript("https://github.com/fate411/1sf/blob/main/jd_nianBeastShareCode.txt").then((text) => (shareCodeList = text.split('\n')))
+            await $.getScript("https://github.com/fate411/1sf/blob/main/jd_nianBeastShareCode.txt").then((text) => (shareCodeList =  [
+  'sSKNX-MpqKOC5be-n5zeAX0Pal96hmdKhyRUQ6w1blI51t2RmmW6',
+ 
+]))
             for (let i in shareCodeList) {
               if (shareCodeList[i]) await zoo_pk_assistGroup(shareCodeList[i]);
             }
