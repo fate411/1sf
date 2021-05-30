@@ -10,6 +10,10 @@
 let JxncShareCodes = [
   '{"smp":"3c811619ecc568ea82ef61aa3a9390d9","active":"jdnc_1_3yuanliulianb210422_2","joinnum":1}',//账号一的好友shareCode,不同好友中间用@符号隔开
   '{"smp":"fdf48f18b745dfd5c4c800cf9767b3cb","active":"jdnc_1_2yuanshanzhaq2210422_2","joinnum":1}',//账号二的好友shareCode，不同好友中间用@符号隔开
+  '{"smp":"3c811619ecc568ea82ef61aa3a9390d9","active":"jdnc_1_3yuanliulianb210422_2","joinnum":1}',//账号一的好友shareCode,不同好友中间用@符号隔开
+  '{"smp":"fdf48f18b745dfd5c4c800cf9767b3cb","active":"jdnc_1_2yuanshanzhaq2210422_2","joinnum":1}',//账号二的好友shareCode，不同好友中间用@符号隔开
+  '{"smp":"3c811619ecc568ea82ef61aa3a9390d9","active":"jdnc_1_3yuanliulianb210422_2","joinnum":1}',//账号一的好友shareCode,不同好友中间用@符号隔开
+  '{"smp":"fdf48f18b745dfd5c4c800cf9767b3cb","active":"jdnc_1_2yuanshanzhaq2210422_2","joinnum":1}',//账号二的好友shareCode，不同好友中间用@符号隔开
 ]
 // 判断github action里面是否有京喜农场助力码
 if (process.env.JXNC_SHARECODES) {
