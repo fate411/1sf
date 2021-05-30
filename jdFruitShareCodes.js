@@ -13,6 +13,12 @@ let FruitShareCodes = [
   '15da1a89d9b34c30ba4b9310f5bb8c12@38cc073d44a74d82b9211af9cfd2ee3c@85d13eb9163f4a7e8d7d54f6c4dd12f5',
     //账号三的好友shareCode,不同好友的shareCode中间用@符号隔开
   '15da1a89d9b34c30ba4b9310f5bb8c12@38cc073d44a74d82b9211af9cfd2ee3c@85d13eb9163f4a7e8d7d54f6c4dd12f5',
+     //账号4的好友shareCode,不同好友的shareCode中间用@符号隔开
+  '15da1a89d9b34c30ba4b9310f5bb8c12@38cc073d44a74d82b9211af9cfd2ee3c@85d13eb9163f4a7e8d7d54f6c4dd12f5',
+  //账号5的好友shareCode,不同好友的shareCode中间用@符号隔开
+  '15da1a89d9b34c30ba4b9310f5bb8c12@38cc073d44a74d82b9211af9cfd2ee3c@85d13eb9163f4a7e8d7d54f6c4dd12f5',
+    //账号6的好友shareCode,不同好友的shareCode中间用@符号隔开
+  '15da1a89d9b34c30ba4b9310f5bb8c12@38cc073d44a74d82b9211af9cfd2ee3c@85d13eb9163f4a7e8d7d54f6c4dd12f5',
  ]
 // 判断github action里面是否有水果互助码
 if (process.env.FRUITSHARECODES) {
