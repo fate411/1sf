@@ -10,6 +10,9 @@ let shareCodes = [
   'gAMILKE3cq7U8EVM_bW63A==@JrXtCVvg37mIzEMAGt0H0zA==@aGJ2OnO5gVSsRmA8n74v1w==@VV55A_oKz5u5CYrL3jxPdg==',//账号一的好友shareCode,不同好友中间用@符号隔开
   'rXtCVvg37mIzEMAGt0H0zA==@gAMILKE3cq7U8EVM_bW63A==@aGJ2OnO5gVSsRmA8n74v1w==@VV55A_oKz5u5CYrL3jxPdg==',//账号二的好友shareCode，不同好友中间用@符号隔开
   'rXtCVvg37mIzEMAGt0H0zA==@gAMILKE3cq7U8EVM_bW63A==@aGJ2OnO5gVSsRmA8n74v1w==@VV55A_oKz5u5CYrL3jxPdg==',//账号三的好友shareCode，不同好友中间用@符号隔开
+  'gAMILKE3cq7U8EVM_bW63A==@JrXtCVvg37mIzEMAGt0H0zA==@aGJ2OnO5gVSsRmA8n74v1w==@VV55A_oKz5u5CYrL3jxPdg==',//账号4的好友shareCode,不同好友中间用@符号隔开
+  'rXtCVvg37mIzEMAGt0H0zA==@gAMILKE3cq7U8EVM_bW63A==@aGJ2OnO5gVSsRmA8n74v1w==@VV55A_oKz5u5CYrL3jxPdg==',//账号5的好友shareCode，不同好友中间用@符号隔开
+  'rXtCVvg37mIzEMAGt0H0zA==@gAMILKE3cq7U8EVM_bW63A==@aGJ2OnO5gVSsRmA8n74v1w==@VV55A_oKz5u5CYrL3jxPdg==',//账号6的好友shareCode，不同好友中间用@符号隔开
 ]
 // 判断github action里面是否有京喜工厂互助码
 if (process.env.DREAM_FACTORY_SHARE_CODES) {
