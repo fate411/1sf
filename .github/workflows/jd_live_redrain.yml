@@ -6,11 +6,11 @@ name: jd_starStore
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 11,13,16 * * *'
+    - cron: '0,30 0-23/1 * * *'
   watch:
     types: started
   repository_dispatch:
-    types: jd_starStore
+    types: jd_live_redrain
 jobs:
   build:
 
@@ -33,9 +33,9 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【星店长】'
+      - name: '运行 【超级直播间红包雨】'
         run: |
-          node jd_starStore.js
+          node jd_live_redrain.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           PUSH_PLUS_TOKEN: ${{ secrets.PUSH_PLUS_TOKEN }}
